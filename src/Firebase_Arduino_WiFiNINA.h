@@ -63,7 +63,7 @@
 
 const char C_STR_0[] PROGMEM = "";
 const char C_STR_1[] PROGMEM = "/";
-const char C_STR_2[] PROGMEM = ".json?auth=";
+const char C_STR_2[] PROGMEM = ".json?access_token=";
 const char C_STR_3[] PROGMEM = "\"";
 const char C_STR_4[] PROGMEM = ".";
 const char C_STR_5[] PROGMEM = "HTTP/1.1 ";
@@ -229,7 +229,7 @@ class Firebase_Arduino_WiFiNINA
         Store Firebase's authentication credentials.
 
         @param host - Your Firebase database project host without http:// or https:// protocol e.g. Your_ProjectID.firebaseio.com.
-        @param auth - Your database secret.
+        @param auth - Your access_token.
         @param wifiSSID - Your WiFi AP SSID.
         @param wifiPSW - Your WiFi AP Password.
 
